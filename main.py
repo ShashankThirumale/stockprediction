@@ -258,5 +258,5 @@ plt.legend(['Predictions',
             'Actual'])
 st.pyplot(fig5)
 prediction = y_test[-1]
-write = "Approximate stock price of is: $" + str(prediction)
+write = "Approximate stock price tommorow will be: $" + str(prediction)
 st.subheader(write)
