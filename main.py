@@ -190,7 +190,7 @@ def df_to_windowed_df(dataframe, first_date_str, last_date_str, n=3):
   return ret_df
 
 # Start day second time around: '2021-03-25'
-windowed_df = df_to_windowed_df(df, '2022-01-25', '2024-01-23',  n=3)
+windowed_df = df_to_windowed_df(df, '2016-01-25', '2024-02-23',  n=3)
 
 def windowed_df_to_date_X_y(windowed_dataframe):
   df_as_np = windowed_dataframe.to_numpy()
