@@ -1,2 +1,7 @@
 yfinance
 prophet
+plotly
+numpy
+pandas
+matplotlib
+tensorflow
